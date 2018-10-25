@@ -1,0 +1,111 @@
+
+/* Footer Design Goes here */
+footer{
+	padding: 38px 20px;
+	margin-left:0px;
+	margin-right:0px;
+	background-color: #252525;
+}
+footer .footer-links h5{
+	letter-spacing: 1px;
+	color: #5F5F5F;
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-bottom: 13px;
+	
+}
+footer .footer-links ul li a{
+	color: #ACACAC;
+	font-size: 12px;
+	line-height: 30px;
+	text-decoration: none;
+}
+footer .footer-links ul li a i{
+	font-size: 19px;
+}
+footer div.footer-header-bottom-margin{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.footer-divider{
+	height:5px; 
+	margin-bottom:0px;
+	background-color:#AFEEEE;
+	width:100%;
+}
+
+footer .row{
+	margin-left:0px;
+}
+
+/* Footer Design ends here */
+
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: #27AE61 url('up-arrow.png') no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+a.simple-back-to-top{
+	background-image:url('up-arrow.png');
+}
+a:hover.back-to-top {
+	background-color: #000;
+}
+a.navbar-collapse{
+	text-color:yellow;
+}
+
+//design for the change password page 
+body {
+font-family:Arial;
+}
+input {
+font-family:Arial;
+font-size:14px;
+}
+label{
+font-family:Arial;
+font-size:14px;
+color:#999999;
+}
+.tblSaveForm {
+border-top:2px #999999 ;
+background-color: #f8f8f8;
+}
+.tableheader {
+background-color: #fedc4d;
+}
+.btnSubmit {
+background-color:#fd9512;
+padding:10px;
+border-color:#FF6600;
+border-radius:4px;
+color:white;
+float:right;
+}
+.message {
+color: #FF0000;
+text-align: center;
+width: 100%;
+}
+.txtField {
+padding: 5px;
+border:#fedc4d 1px solid;
+border-radius:4px;
+}
+.required {
+color: #FF0000;
+font-size:11px;
+font-weight:italic;
+padding-left:100px;
+}
